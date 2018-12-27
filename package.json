@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-admin",
+  "version": "0.1.0-alpha",
+  "description": "NextJs Admin Repository",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "clean": "lerna clean",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "eslint": "eslint --config ./.eslintrc ./packages",
+    "prettier": "prettier ./packages/**/*.js",
+    "dev": "lerna run dev --scope web --scope api",
+    "dev:web": "lerna run dev --scope web",
+    "dev:api": "lerna run dev --scope api",
+    "start": "lerna run start --scope web --scope api",
+    "start:web": "lerna run start --scope web",
+    "start:api": "lerna run start --scope api"
+  },
+  "devDependencies": {
+    "lerna": "^3.8.0"
+  }
+}

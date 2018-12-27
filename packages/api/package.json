@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "version": "0.1.0-alpha",
+  "description": "NextJs Admin Repository",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "pretest": "NODE_ENV=test npm run lint",
+    "test": "NODE_ENV=test nyc mocha --timeout=10000 --exit"
+  },
+  "author": "Firmansyah Nuralif Rohman <mendoanjoe@gmail.com>",
+  "license": "ISC"
+}

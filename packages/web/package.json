@@ -1,0 +1,22 @@
+{
+  "name": "web",
+  "version": "0.1.0-alpha",
+  "description": "NextJs Admin Repository",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "jss": "latest",
+    "next": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-jss": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Firmansyah Nuralif Rohman <mendoanjoe@gmail.com>",
+  "license": "ISC"
+}
