@@ -1,0 +1,26 @@
+{
+  "development": {
+    "appname": "Orda Donor Application",
+    "appversion": "v1",
+    "appauthor": "Firmansyah Nuralif Rohman",
+    "sendgrid_api_key":
+      "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",
+    "app_key": "iTSKeysGoogle"
+  },
+  "test": {
+    "appname": "Orda Donor Application",
+    "appversion": "v1",
+    "appauthor": "Firmansyah Nuralif Rohman",
+    "sendgrid_api_key":
+      "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",
+    "app_key": "iTSKeysGoogle"
+  },
+  "production": {
+    "appname": "Orda Donor Application",
+    "appversion": "v1",
+    "appauthor": "Firmansyah Nuralif Rohman",
+    "sendgrid_api_key":
+      "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",
+    "app_key": "iTSKeysGoogle"
+  }
+}

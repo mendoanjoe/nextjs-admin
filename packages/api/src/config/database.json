@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "indonesia",
+    "database": "ordatest",
+    "host": "127.0.0.1"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "indonesia",
+    "database": "ordatest",
+    "host": "127.0.0.1"
+  },
+  "production": {
+    "username": "ewozyqwcfcdqyd",
+    "password": "140eabde0c6eb040f9f4dd06bc4f254994db3b5bfa4906b167b918c5172ddac4",
+    "database": "d9u4o23f5lt956",
+    "host": "ec2-50-17-203-51.compute-1.amazonaws.com"
+  }
+}

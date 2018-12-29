@@ -3,12 +3,35 @@
   "version": "0.1.0-alpha",
   "description": "NextJs Admin Repository",
   "private": true,
-  "main": "server.js",
+  "main": "./src/applications.js",
   "scripts": {
-    "dev": "nodemon server.js",
+    "start": "node ./bin/start",
+    "watch": "nodemon ./bin/start",
     "lint": "eslint .",
     "pretest": "NODE_ENV=test npm run lint",
     "test": "NODE_ENV=test nyc mocha --timeout=10000 --exit"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "nyc": "^13.1.0",
+    "prettier": "^1.15.3",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bunyan": "^1.8.12",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mongoose": "^5.4.1"
   },
   "author": "Firmansyah Nuralif Rohman <mendoanjoe@gmail.com>",
   "license": "ISC"

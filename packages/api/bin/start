@@ -1,0 +1,9 @@
+const { createServer } = require("http");
+
+const server = require("../src/application");
+const PORT = parseInt(process.env.PORT, 10) || 3000;
+
+server().then(app => {
+  const server = createServer(app);
+  server.listen(PORT);
+});
