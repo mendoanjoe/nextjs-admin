@@ -5,8 +5,8 @@
   "private": true,
   "main": "./src/applications.js",
   "scripts": {
-    "start": "node ./bin/start",
-    "watch": "nodemon ./bin/start",
+    "start": "cross-env NODE_ENV=development PORT=5001 node ./bin/start",
+    "watch": "cross-env NODE_ENV=development PORT=5001 nodemon ./bin/start",
     "lint": "eslint .",
     "pretest": "NODE_ENV=test npm run lint",
     "test": "NODE_ENV=test nyc mocha --timeout=10000 --exit"
@@ -20,7 +20,8 @@
     "eslint-plugin-promise": "^4.0.1",
     "nyc": "^13.1.0",
     "prettier": "^1.15.3",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "cross-env": "^5.2.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

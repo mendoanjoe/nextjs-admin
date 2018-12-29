@@ -12,6 +12,13 @@ const mongoose = require("mongoose");
  */
 const env = process.env.NODE_ENV || "development";
 const conf = require(path.resolve(__dirname, "./config/application.json"))[env];
+const confDb = require(path.resolve(__dirname, "./config/database.json"))[env];
+
+/**
+ * Database
+ */
+// console.log(confDb.url);
+mongoose.connect(confDb.url, { useNewUrlParser: true });
 
 /**
  * Application logger
@@ -52,6 +59,7 @@ module.exports = async () => {
    */
   app.set("logger", logger);
   app.set("configuration", conf);
+  app.set("db", mongoose);
 
   require("./utils/routes")(app);
 

@@ -1,20 +1,23 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "indonesia",
-    "database": "ordatest",
-    "host": "127.0.0.1"
+    "username": "admin",
+    "password": "LBbXETD67YLzmq3",
+    "database": "test-examle",
+    "host": "ds233571.mlab.com:33571",
+    "url": "mongodb://admin:LBbXETD67YLzmq3@ds233571.mlab.com:33571/test-examle"
   },
   "test": {
     "username": "postgres",
     "password": "indonesia",
     "database": "ordatest",
-    "host": "127.0.0.1"
+    "host": "127.0.0.1",
+    "url": "mongodb://admin:LBbXETD67YLzmq3@ds233571.mlab.com:33571/test-examle"
   },
   "production": {
-    "username": "ewozyqwcfcdqyd",
-    "password": "140eabde0c6eb040f9f4dd06bc4f254994db3b5bfa4906b167b918c5172ddac4",
-    "database": "d9u4o23f5lt956",
-    "host": "ec2-50-17-203-51.compute-1.amazonaws.com"
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "url": "mongodb://admin:LBbXETD67YLzmq3@ds233571.mlab.com:33571/test-examle"
   }
 }
